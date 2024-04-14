@@ -7,6 +7,6 @@ This repository provides a simple HTML CV template designed for flexibility and 
 #### How to Use:
 1. Clone or download the `index.html` and `styles.css` files.
 2. Add and remove sections as needed and fill in your information.
-3. Open the `index.html` in a browser (See screenshot for Chrome) and print the page.
+3. Open the `index.html` in a browser (see screenshot for Chrome) and print the page.
 
 ![screenshot of print](https://github.com/jonas-koerber/a-simple-html-cv/blob/main/LOOKATME.png)
