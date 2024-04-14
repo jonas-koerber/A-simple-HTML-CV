@@ -1,0 +1,77 @@
+html {
+    background: var(--backdrop-background);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size);
+    letter-spacing: 1.5px;
+}
+
+page {
+    background: var(--main-background);
+    color: var(--primary-font-color);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+@media print {
+    body,
+    page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+
+header {
+    background: var(--header-background);
+    padding: var(--header-padding) var(--horizontal-padding);
+}
+
+main {
+    padding: var(--main-padding) var(--horizontal-padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--section-gap);
+}
+
+footer {
+    padding: var(--footer-padding) var(--horizontal-padding);
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.head {
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: var(--head-size);
+}
+
+.subhead {
+    opacity: var(--subhead-opacity);
+    letter-spacing: 2px;
+}
+
+.eyebrow {
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.marker {
+    border-left: 3px solid var(--font-color);
+    margin-left: -15px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+}
